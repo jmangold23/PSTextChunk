@@ -17,7 +17,7 @@ You can install the `PSTextChunk` module either by downloading the ZIP file from
 
 ### Option 1: Download ZIP
 
-1. Visit the `PSTextChunk` GitHub repository: [https://github.com/jmangold23/PSTextChunkk](https://github.com/jmangold23/PSTextChunk).
+1. Visit the `PSTextChunk` GitHub repository: [https://github.com/jmangold23/PSTextChunk](https://github.com/jmangold23/PSTextChunk).
 2. Click the `Code` button and then select `Download ZIP`.
 3. Extract the downloaded ZIP file.
 4. Move the extracted `PSTextChunk` folder to your preferred directory.
@@ -62,10 +62,10 @@ Splitting a long text from a book or document:
 # Example text excerpt (for illustration, replace with your actual long text)
 $longText = "In the realm of Tolkoria, dragons ruled the skies and the kingdoms of men trembled... [very long text continues]"
 
+# This command will process the lengthy text by breaking it into chunks of 100 characters each, with a 10-character overlap between consecutive chunks, making it easier to analyze large bodies of text without losing context.
+
 Get-OverlappingTextChunks -Text $longText -ChunkSize 100 -Overlap 10
 ```
-
-This command will process the lengthy text by breaking it into chunks of 100 characters each, with a 10-character overlap between consecutive chunks, making it easier to analyze large bodies of text without losing context.
 
 ## Contributing
 
